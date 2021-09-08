@@ -19,7 +19,7 @@ async def typewriter(typew):
     await typew.edit("`assalamualaikum wahai hambaku.`")
 
 
-@register(outgoing=True, pattern='^.alay(?: |$)(.*)')
+@register(outgoing=True, pattern='^.norak(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`gausah main bot mulu kontol, kaga keliatan keren tolol yang ada NORAK !`")
